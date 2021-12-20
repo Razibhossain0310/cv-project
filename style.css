@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f0f5f4 ;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: #0191a1;
+}
+#container{
+    background-color: #baecee;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 21px;
+}
+
+.profileImg{
+    width: 90px;
+    height: 100px;
+    border: 2px solid cornflowerblue;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+   padding: 20px;
+}
+.header-contact{
+    float: right;
+}
+.header-contact ul{
+    list-style-type: none;
+    margin: 5px 0;
+}
+.header-contact ul li a{
+    text-decoration: none;
+    color: #0191a1;
+    font-weight: bold;
+}
+.header-contact ul li a:hover{
+    text-decoration: underline;
+    color: #a53131;
+}
+.div-clear{
+    clear: both;
+}
+
+main{
+    margin-bottom: 40px;
+}
+hr{
+    border-bottom: 1.5px solid black;
+    margin: 20px auto;
+    width: 100%;
+}
+/* header section ends  */
+
+/* personal section start  */
+.left-div{
+    max-width: 30%;
+    float: left;
+}
+
+.right-div{
+    max-width: 70%;
+    float: right;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.common-hr{
+    margin: 20px auto;
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+/* education section */
+.left-education{
+    max-width: 30%;
+    float: left;
+}
+.right-education{
+    max-width: 70%;
+    float: right;
+    text-align: justify;
+
+}
+.education-template-left{
+    float: left;
+    width: 30%;
+    margin: 0 2px;
+}
+.education-template-middle{
+    float: right;
+    width: 30%;
+    margin: 0 2px;
+}
+.education-template-right{
+    float: right;
+    width: 30%;
+    margin: 0 2px;
+}
+/* footer section */
+
+.bottom-container a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    display: inline-block;
+  }
+  .bottom-container {
+    background: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 30px;
+  }
+  a {
+  }
+  .bottom-container p {
+    color: #a79e9e;
+    font-size: 15px;
+  }
